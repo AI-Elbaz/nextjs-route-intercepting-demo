@@ -21,6 +21,11 @@ export default function TestModalPage() {
             Open Dialog 3
           </Link>
         </li>
+        <li>
+          <Link href="/test-modal/dialog" className="text-blue-600 hover:underline">
+            Open Dialog static page
+          </Link>
+        </li>
       </ul>
       <div className="mt-5 text-sm text-gray-600 space-y-1">
         <p className="font-semibold">Expected behavior:</p>

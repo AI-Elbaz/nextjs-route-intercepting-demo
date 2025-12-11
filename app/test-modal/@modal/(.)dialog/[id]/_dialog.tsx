@@ -2,7 +2,7 @@
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 
-export function Dialog({id}: { id: string }) {
+export function Dialog({id}: { id?: string }) {
   const router = useRouter();
 
   useEffect(() => {
